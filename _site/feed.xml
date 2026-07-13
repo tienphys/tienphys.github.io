@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-07-13T22:16:39+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">tienphys</title><subtitle>A personal knowledge base.</subtitle><entry><title type="html">Welcome and Math Test</title><link href="http://localhost:4000/2026/07/13/welcome.html" rel="alternate" type="text/html" title="Welcome and Math Test" /><published>2026-07-13T00:00:00+02:00</published><updated>2026-07-13T00:00:00+02:00</updated><id>http://localhost:4000/2026/07/13/welcome</id><content type="html" xml:base="http://localhost:4000/2026/07/13/welcome.html"><![CDATA[<p>Write plain <strong>Markdown</strong> as usual.</p>
+
+<p>Inline math: \(e^{i\pi} + 1 = 0\) sits in the sentence.</p>
+
+<p>Display math on its own line:</p>
+
+\[\int_0^\infty e^{-x}\,dx = 1\]]]></content><author><name></name></author><summary type="html"><![CDATA[Write plain Markdown as usual.]]></summary></entry><entry><title type="html">Bloch theorem</title><link href="http://localhost:4000/2026/07/13/bloch-theorem.html" rel="alternate" type="text/html" title="Bloch theorem" /><published>2026-07-13T00:00:00+02:00</published><updated>2026-07-13T00:00:00+02:00</updated><id>http://localhost:4000/2026/07/13/bloch-theorem</id><content type="html" xml:base="http://localhost:4000/2026/07/13/bloch-theorem.html"><![CDATA[<p>Let us consider a particle in a spatially periodic potential, $V(x+a)=V(x)$; here $a$ is called the <em>lattice spacing</em>. The total Hamiltonian of the system reads</p>
+
+\[\begin{align}\label{eq:hamiltonian}
+    \hat H = \frac{\hat p^2}{2m} + \hat V(x).
+\end{align}\]
+
+<p>We introduce the <em>discrete translation operator</em> $\hat T_a: x\to x+a$; this is motivated by the translation symmetry properties of the particle’s potential. One can check that the discrete translation operator commutes with the total Hamiltonian, $[\hat T_a, H]$
+%%% Spoiler starts
+Here’s how we show they commute
+%%% Spoiler ends
+Since they commute, they share the same spectra, i.e. eigenvalues and eigenvectors.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Let us consider a particle in a spatially periodic potential, $V(x+a)=V(x)$; here $a$ is called the lattice spacing. The total Hamiltonian of the system reads]]></summary></entry></feed>
