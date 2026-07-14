@@ -25,4 +25,35 @@
   </script>
   <script async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
   {%- endif -%}
+  <style>
+    details.spoiler {
+      border: 1px solid #e8e8e8;
+      border-radius: 3px;
+      padding: .4em .8em;
+      margin: 1em 0;
+    }
+    details.spoiler > summary {
+      cursor: pointer;
+      font-weight: 600;
+    }
+    details.spoiler[open] > summary {
+      margin-bottom: .6em;
+    }
+  </style>
+  <style>
+    details.spoiler {
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      background: #f6f6f6;
+      padding: .5em .8em;
+      margin: 1em 0;
+    }
+    details.spoiler > summary {
+      cursor: pointer;
+      font-weight: 600;
+    }
+    details.spoiler[open] > summary {
+      margin-bottom: .5em;
+    }
+  </style>
 </head>
